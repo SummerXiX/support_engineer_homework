@@ -1,10 +1,13 @@
-# Support Engineer Homework
+# How to run the app
 
-1. Fork this repository.
-2. Add `smartrr-hello` as a collaborator to your repository.
-3. Use the [test data](https://docs.google.com/spreadsheets/d/1uyDXhb3T3-LVywTvpH1ixWbz6if7vUaUQC6YHcNm-wY/edit?usp=sharing) to answer the questions below. The test data is in CSV form in two tabs. Each tab represents a table:
-    - organzation
-    - account
-4. Add all SQL and JavaScript files to your fork.
-5. Write a README explaining how to run your application.
-6. Push up your submission and let us know where to find it.
+## JS part
+
+1. The JS part is written as a CLI app.
+2. run `npm install` in a Node environment (v18.17.1).
+3. run `node js_part.js`, choose one option based on the prompts in the terminal.
+
+## SQL part
+
+1. SQL part is tested in [db-fiddle](https://www.db-fiddle.com/).
+2. Use [schema.sql](./schema.sql) to build the schema.
+3. Queries is in [sql_part](./sql_part.sql).
